@@ -1,0 +1,46 @@
+/* ตั้งค่าพื้นฐาน */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+/* พื้นหลังและสี */
+body {
+    background-color: #dcf0ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ส่วน Header */
+.header {
+    background: linear-gradient(to bottom , #cde4ff, #E78F81); /* ไล่สีจากซ้ายไปขวา */
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 50px;
+    border: 1px ;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+
+/* ส่วน Section */
+.section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #f8efba;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ส่วน Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
